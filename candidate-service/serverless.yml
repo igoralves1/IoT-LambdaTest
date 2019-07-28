@@ -1,0 +1,19 @@
+
+service: candidate
+
+
+provider:
+  name: aws
+  runtime: nodejs8.10
+  region: us-east-2
+
+functions:
+  hello:
+    handler: handler.hello
+
+    events:
+#      - http:
+#          path: users/create
+#          method: get
+      - iot:
+          sql: "SELECT * FROM '/Joaquim/Palmas/teste1/'"

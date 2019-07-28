@@ -1,0 +1,24 @@
+# package directories
+node_modules
+jspm_packages
+
+# Serverless directories
+.serverless
+
+
+/node_modules
+
+/vendor
+.idea/*
+.idea/
+/.vscode
+/.vagrant
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log
+/bootstrap/compiled.php
+
+.idea/workspace.xml
+.idea/usage.statistics.xml
+.idea/tasks.xml
